@@ -1,6 +1,7 @@
 name: Change repo visibility
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 */3 * *' # This will run the workflow every 3 days
 
